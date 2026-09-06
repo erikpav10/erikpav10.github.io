@@ -56,7 +56,7 @@
     .nav-menu{display:flex;gap:22px;list-style:none;align-items:center}
     .nav-menu a{font-size:.85rem;font-weight:700;text-transform:uppercase;color:var(--texto-cinza);cursor:pointer}
     .nav-menu a:hover,.nav-menu a.active{color:var(--cor-destaque)}
-    .hero{min-height:680px;padding-top:80px;display:flex;align-items:center;text-align:center;background:linear-gradient(rgba(10,10,10,.68),rgba(10,10,10,.94)),url('https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1920&q=80') center/cover}
+    .hero{min-height:680px;padding-top:80px;display:flex;align-items:center;text-align:center;background:linear-gradient(rgba(10,10,10,.68),rgba(10,10,10,.94)),url('imagens/hero-bg.jpg') center/cover}
     .hero-content{max-width:850px;margin:auto}
     .hero h1{font-family:var(--fonte-titulo);font-size:clamp(3.5rem,8vw,6rem);line-height:1;letter-spacing:3px}
     .hero p{color:#ccc;font-size:1.1rem;margin:20px auto 28px;max-width:760px}
@@ -178,38 +178,38 @@
 
     <div class="cards-grid" id="gamesGrid">
       <article class="game-card" data-game="elden ring" data-genre="RPG" data-platform="PC PlayStation Xbox">
-        <div class="game-img"><img src="https://cdn.base.geonet.jp/img/prod/600/516/04/5160410-01-01.jpg" alt="Elden Ring" loading="lazy"><span class="badge">RPG</span></div>
+        <div class="game-img"><img src="imagens/elden-ring.jpg" alt="Elden Ring" loading="lazy"><span class="badge">RPG</span></div>
         <div class="game-body"><h3>Elden Ring</h3><p class="muted">Guias, builds, chefes, armas, requisitos e informações do universo de Elden Ring.</p><div class="game-meta"><span class="pill">PC</span><span class="pill">PlayStation</span><span class="pill">Xbox</span></div><button class="btn btn-primary" onclick="openGame('elden-ring')">Ver informações</button></div>
       </article>
 
       <article class="game-card" data-game="valorant" data-genre="FPS" data-platform="PC">
-        <div class="game-img"><img src="https://images.pushsquare.com/0e05cde2b7f43/valorant-cover.cover_large.jpg" alt="Valorant" loading="lazy"><span class="badge">FPS</span></div>
+        <div class="game-img"><img src="imagens/valorant.jpg" alt="Valorant" loading="lazy"><span class="badge">FPS</span></div>
         <div class="game-body"><h3>Valorant</h3><p class="muted">Agentes, mapas, lineups, configurações, meta e conteúdo competitivo.</p><div class="game-meta"><span class="pill">PC</span><span class="pill">eSports</span></div><button class="btn btn-primary" onclick="openGame('valorant')">Ver informações</button></div>
       </article>
 
       <article class="game-card" data-game="cyberpunk 2077" data-genre="RPG" data-platform="PC PlayStation Xbox">
-        <div class="game-img"><img src="https://www.rpgfan.com/wp-content/uploads/2020/07/Cyberpunk-2077-Cover-Art-PS4.jpg" alt="Cyberpunk 2077" loading="lazy"><span class="badge">RPG</span></div>
+        <div class="game-img"><img src="imagens/cyberpunk-2077.jpg" alt="Cyberpunk 2077" loading="lazy"><span class="badge">RPG</span></div>
         <div class="game-body"><h3>Cyberpunk 2077</h3><p class="muted">Builds, missões, escolhas, mods, requisitos e segredos de Night City.</p><div class="game-meta"><span class="pill">PC</span><span class="pill">PlayStation</span><span class="pill">Xbox</span></div><button class="btn btn-primary" onclick="openGame('cyberpunk')">Ver informações</button></div>
       </article>
 
       <article class="game-card" data-game="minecraft" data-genre="Ação" data-platform="PC PlayStation Xbox Mobile">
-        <div class="game-img"><img src="https://ethlan.fr/img/jeux/121.jpg" alt="Minecraft" loading="lazy"><span class="badge">Sandbox</span></div>
+        <div class="game-img"><img src="imagens/minecraft.jpg" alt="Minecraft" loading="lazy"><span class="badge">Sandbox</span></div>
         <div class="game-body"><h3>Minecraft</h3><p class="muted">Receitas, sementes, encantamentos, farms, comandos e dicas para sobreviver.</p><div class="game-meta"><span class="pill">PC</span><span class="pill">Console</span><span class="pill">Mobile</span></div><button class="btn btn-primary" onclick="openGame('minecraft')">Ver informações</button></div>
       </article>
 
       <article class="game-card" data-game="fortnite" data-genre="Ação" data-platform="PC PlayStation Xbox Mobile">
-        <div class="game-img"><img src="https://store.epicgames.com/p/fortnite?lang=pt-BR" alt="Fortnite" loading="lazy"><span class="badge">Battle Royale</span></div>
+        <div class="game-img"><img src="imagens/fortnite.jpg" alt="Fortnite" loading="lazy"><span class="badge">Battle Royale</span></div>
         <div class="game-body"><h3>Fortnite</h3><p class="muted">Temporadas, mapas, estratégias, itens, atualizações e dicas para melhorar.</p><div class="game-meta"><span class="pill">PC</span><span class="pill">Console</span><span class="pill">Mobile</span></div><button class="btn btn-primary" onclick="openGame('fortnite')">Ver informações</button></div>
       </article>
 
       <article class="game-card" data-game="league of legends lol" data-genre="Estratégia" data-platform="PC">
-        <div class="game-img"><img src="https://img.boop.pl/uploads/2024/05/ta-postac-z-league-of-legends-wyszla-niecaly-rok-temu-a-dzis-nikt-nia-nie-gra-290524169840.jpg?w=400" alt="League of Legends" loading="lazy"><span class="badge">MOBA</span></div>
+        <div class="game-img"><img src="imagens/league-of-legends.jpg" alt="League of Legends" loading="lazy"><span class="badge">MOBA</span></div>
         <div class="game-body"><h3>League of Legends</h3><p class="muted">Campeões, builds, runas, tier lists, estratégias e atualizações do jogo.</p><div class="game-meta"><span class="pill">PC</span><span class="pill">eSports</span></div><button class="btn btn-primary" onclick="openGame('lol')">Ver informações</button></div>
       </article>
 
       <article class="game-card" data-game="mistfall hunter mistfall" data-genre="RPG" data-platform="PC PlayStation Xbox">
         <div class="game-img">
-          <img src="https://clan.fastly.steamstatic.com/images/45259576/9cc4a72f3666fa81dd3bd56d9bbc71c77bc5c971.png" alt="Mistfall Hunter" loading="lazy">
+          <img src="imagens/mistfall-hunter.jpg" alt="Mistfall Hunter" loading="lazy">
           <span class="badge">NOVO</span>
         </div>
         <div class="game-body">
@@ -225,7 +225,7 @@
 
       <div id="detail-mistfall" class="game-detail">
         <div class="detail-hero">
-          <img src="https://clan.fastly.steamstatic.com/images/45259576/9cc4a72f3666fa81dd3bd56d9bbc71c77bc5c971.png" alt="Mistfall Hunter" style="width:100%;max-height:360px;object-fit:cover;border-radius:10px;margin-bottom:22px">
+          <img src="imagens/mistfall-hunter.jpg" alt="Mistfall Hunter" style="width:100%;max-height:360px;object-fit:cover;border-radius:10px;margin-bottom:22px">
           <div class="script">Novo no Corujão</div>
           <h2>Mistfall Hunter</h2>
           <p class="muted">Fantasia sombria, extração e ação em terceira pessoa.</p>
@@ -417,8 +417,7 @@
     </div>
   </section>
 
-  <section id="novidades"
-<section id="novidades" class="page section container hidden">
+  <section id="novidades" class="page section container hidden">
     <div class="newsletter">
       <div><div class="script">Receba novidades</div><h2 style="font-family:var(--fonte-titulo);font-size:3rem">NEWSLETTER GAMER</h2><p class="muted">Receba novidades, guias e conteúdos selecionados.</p></div>
       <form class="form" onsubmit="handleNewsletter(event)">
@@ -440,7 +439,8 @@
   <div class="container" style="text-align:center;margin-top:35px;padding-top:20px;border-top:1px solid rgba(255,255,255,.06);color:var(--texto-cinza);font-size:.8rem">© 2026 Corujão dos Bruxos. Todos os direitos reservados.</div>
 </footer>
 
-<a class="whatsapp" href="https://wa.me/" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<!-- ATENÇÃO: troque 5511999999999 pelo seu número de WhatsApp real (formato: código do país + DDD + número, sem espaços ou símbolos) -->
+<a class="whatsapp" href="https://wa.me/5511999999999" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 
 <script>
   // GA4: mantém o ID original e adiciona eventos úteis para análise do comportamento.
@@ -495,4 +495,3 @@
 </script>
 </body>
 </html>
-
